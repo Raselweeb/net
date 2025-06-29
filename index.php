@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ফিক্সড ফুটার উদাহরণ</title>
+    <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<body>
+<head>
+  <!-- অন্যান্য ট্যাগ -->
+  <style>
+    /* সমস্ত লিংক থেকে আন্ডারলাইন সরান */
+    a {
+      text-decoration: none !important;
+    }
+    
+    /* শুধুমাত্র হোভারে আন্ডারলাইন দেখান (ঐচ্ছিক) */
+    a:hover {
+      text-decoration: underline !important;
+    }
+  </style>
+</head>
+<?php
+require_once 'includes/header.php';
+require_once 'includes/slider.php';
+require_once 'includes/news-notice.php';
+require_once 'includes/service.php';
+require_once 'includes/right-sidebar.php';
+require_once 'includes/footer.php';
+?>
+
+</body>
+</html>
